@@ -10,11 +10,13 @@ using Xamarin.Forms.Xaml;
 namespace UI_Xamarin.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ScrollView : ContentPage
+    public partial class WebView : ContentPage
     {
-        public ScrollView()
+        public WebView()
         {
             InitializeComponent();
+            WB_Info.Source = new UrlWebViewSource() { Url = "vdai2000.github.io" };
+
         }
     }
 }

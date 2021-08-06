@@ -8,10 +8,18 @@ namespace UI_Xamarin.ViewModels
 {
     public class ListPETViewModels
     {
-        public DataPET PET;
+        private List<PET> list;
+        private DataPET pET;
+
+        
+
         public ListPETViewModels()
         {
             PET = new DataPET();
+            List = PET.listpet;
         }
+
+        public List<PET> List { get => list; set => list = value; }
+        public DataPET PET { get => pET; set => pET = value; }
     }
 }

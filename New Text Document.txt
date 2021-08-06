@@ -1,0 +1,16 @@
+Nôi dung công việc thứ 5 (05/08):
+- Tìm hiểu về Readable code C# (95%)
+- Tìm hiểu Xamarin Form (50$)
+- Tìm hiểu về Layout của Xamarin (40%)
+-------------------------------------------------------------------------------
+Nôi dung công việc hôm sau(06/08):
+- Tiếp tục tìm hiểu về Readable code C#
+- Tiếp tục tìm hiểu Xamarin Form
+- Tiếp tục tìm hiểu về Layout của Xamarin
+- Làm sản phẩm thuyết trình
+-------------------------------------------------------------------------------
+Khó khăn:
+- Gặp khó khăn trong việc Binding Data
+>>link Trello: https://trello.com/b/mm0IDK28/task-gmo
+>>link Tổng hợp: https://drive.google.com/drive/u/0/folders/13h_RVDet_HDD0YaW3g_FdO3vJPiYb1woXem qua trước
+>>llink Github: https://github.com/vdai2000/Study_Xamarin_GMO

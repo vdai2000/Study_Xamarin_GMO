@@ -37,3 +37,4 @@ D:\WORK\Study_Xamarin_GMO\UI_Xamarin\UI_Xamarin\UI_Xamarin\obj\Debug\netstandard
 D:\WORK\Study_Xamarin_GMO\UI_Xamarin\UI_Xamarin\UI_Xamarin\obj\Debug\netstandard2.0\Views\ScrollView.xaml.g.cs
 D:\WORK\Study_Xamarin_GMO\UI_Xamarin\UI_Xamarin\UI_Xamarin\obj\Debug\netstandard2.0\Views\Stack_Layout.xaml.g.cs
 D:\WORK\Study_Xamarin_GMO\UI_Xamarin\UI_Xamarin\UI_Xamarin\obj\Debug\netstandard2.0\Views\DetailPET.xaml.g.cs
+D:\WORK\Study_Xamarin_GMO\UI_Xamarin\UI_Xamarin\UI_Xamarin\obj\Debug\netstandard2.0\Views\RegisterPage.xaml.g.cs

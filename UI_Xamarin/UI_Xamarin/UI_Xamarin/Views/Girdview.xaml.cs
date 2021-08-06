@@ -12,22 +12,12 @@ namespace UI_Xamarin.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Girdview : ContentPage
     {
-        public ListPETViewModels view;
+        public ListPETViewModels View;
         public Girdview()
-        {
+        {         
             InitializeComponent();
-            view = new ListPETViewModels();
-            BindingContext = view.PET.pet;
-        }
-
-        private void Button_Clicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Button_Clicked_1(object sender, EventArgs e)
-        {
-
+            View = new ListPETViewModels();
+            BindingContext = View;
         }
     }
 }

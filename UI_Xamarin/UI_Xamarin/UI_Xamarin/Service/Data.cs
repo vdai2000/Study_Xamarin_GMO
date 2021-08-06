@@ -13,8 +13,8 @@ namespace UI_Xamarin.Service
         {
             items = new List<User>()
             {
-                new User("Nam","123"),
-                new User("Dai","123")
+                new User("Dương Văn Đại","Nam","123","Nam","26/03/2000"),
+                new User("Dương Văn Đại","Dai","123","Nam","26/03/2000")
             };
         }
         public bool AddUser(User item)
@@ -24,10 +24,10 @@ namespace UI_Xamarin.Service
         }
         public User GetItemAsync(string id)
         {
-            return items.FirstOrDefault(s => s.Name == id);
+            return items.FirstOrDefault(s => s.Username == id);
         }
 
-        public List<User> GetUser ()
+        public List<User> GetALLUser ()
         {
             List<User> list = items.ToList();
             return list;

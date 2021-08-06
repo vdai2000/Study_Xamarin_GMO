@@ -11,20 +11,30 @@
         <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
         <StackLayout Margin="20,35,20,20">
             <Label
-             x:Name="Lb_User"
-             
+             x:Name="Lb_User"  
                 >USER NAME</Label>
             <Entry
-             x:Name="ID"
+             x:Name="ID" Text="Dai"
              Placeholder="Nhập User name"></Entry>
             <Label
              x:Name="Lb_Pass">PASSWORD</Label>
             <Entry
              x:Name="Pass"
               IsPassword="true"
+                Text="123"
              Placeholder="Nhập Password">
             </Entry>
             <Button Text="Click me to Login" Clicked="Button_Clicked_1"
+            TextColor="Blue"
+            BackgroundColor="LightBlue"
+            BorderColor="Blue"
+            BorderWidth="5"
+            CornerRadius="5"
+            WidthRequest="150"
+            HeightRequest="75" />
+
+            <Label Text="Register" />
+            <Button Text="Click me to Register" Clicked="Button_Clicked"
             TextColor="Blue"
             BackgroundColor="LightBlue"
             BorderColor="Blue"

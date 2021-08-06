@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UI_Xamarin.Models;
 using UI_Xamarin.ViewModels;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -18,6 +19,8 @@ namespace UI_Xamarin.Views
         public HomePage()
         {
             InitializeComponent();
+            string myValue = Preferences.Get("username", "");
+            Hello.Title = "Xin Chào " + myValue;
         }
 
         private void Button_Search_Clicked(object sender, EventArgs e)

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -20,7 +20,7 @@ namespace UI_Xamarin.Views
         public MyFlayoutFlyout()
         {
             InitializeComponent();
-
+            
             BindingContext = new MyFlayoutFlyoutViewModel();
             ListView = MenuItemsListView;
         }
@@ -34,7 +34,7 @@ namespace UI_Xamarin.Views
                 MenuItems = new ObservableCollection<MyFlayoutFlyoutMenuItem>(new[]
                 {
                     new MyFlayoutFlyoutMenuItem { Id = 0, Title = "Page 1" ,TargetType = typeof(Girdview)},
-                    new MyFlayoutFlyoutMenuItem { Id = 1, Title = "Page 2" ,TargetType = typeof(Stack_Layout)},
+                    new MyFlayoutFlyoutMenuItem { Id = 1, Title = "Page 2" ,TargetType = typeof(WebView)},
                     new MyFlayoutFlyoutMenuItem { Id = 2, Title = "Page 3" ,TargetType = typeof(ScrollView)},
                     new MyFlayoutFlyoutMenuItem { Id = 3, Title = "Page 4" ,TargetType = typeof(AbsoluteLayout)},
                     new MyFlayoutFlyoutMenuItem { Id = 4, Title = "Page 5" ,TargetType = typeof(RelativeLayout)},

@@ -1,7 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-
+using UI_Xamarin.Views;
 namespace UI_Xamarin
 {
     public partial class App : Application

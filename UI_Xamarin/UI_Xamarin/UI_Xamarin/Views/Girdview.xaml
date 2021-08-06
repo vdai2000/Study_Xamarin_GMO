@@ -4,7 +4,7 @@
              x:Class="UI_Xamarin.Views.Girdview">
     <ContentPage.Content>
         <StackLayout>
-            <ListView ItemsSource="{Binding .}">
+            <ListView ItemsSource="{Binding List}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
@@ -13,19 +13,15 @@
                                     <RowDefinition Height="*"></RowDefinition>
                                 </Grid.RowDefinitions>
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="1.6*"></ColumnDefinition>
-                                    <ColumnDefinition Width="1.6*"></ColumnDefinition>
-                                    <ColumnDefinition Width="1.6*"></ColumnDefinition>
-                                    <ColumnDefinition Width="1.6*"></ColumnDefinition>
-                                    <ColumnDefinition Width="1.6*"></ColumnDefinition>
-                                    <ColumnDefinition Width="1.6*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1.5*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1.5*"></ColumnDefinition>
+                                    <ColumnDefinition Width="2.0*"></ColumnDefinition>
+                                    <ColumnDefinition Width="2.0*"></ColumnDefinition>
                                 </Grid.ColumnDefinitions>
-                               
                                 <Label Grid.Row="0" HorizontalOptions="Center"  Grid.Column="0" Text="{Binding NamePet}"></Label>
                                 <Label Grid.Row="0" HorizontalOptions="Center" Grid.Column="1" Text="{Binding Type}"></Label>
-                               
                                 <Image Grid.Row="0" HorizontalOptions="Center" Grid.Column="2" Source="{Binding ImgPet}"></Image>
-                                <Button  Grid.Row="0" HorizontalOptions="Center" Grid.Column="3" Text="Detail" Clicked="Button_Clicked_1"></Button>
+                                <Button  Grid.Row="0" HorizontalOptions="Center" Grid.Column="3" Text="Detail"></Button>
                             </Grid>
                         </ViewCell>
                     </DataTemplate>

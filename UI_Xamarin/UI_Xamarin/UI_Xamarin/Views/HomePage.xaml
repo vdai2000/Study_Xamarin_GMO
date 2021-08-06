@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="UI_Xamarin.Views.HomePage">
+             x:Class="UI_Xamarin.Views.HomePage"
+             x:Name="Hello">
     <ContentPage.Content>
         <StackLayout Spacing="20">
             <Entry x:Name="IP_NamePET" Placeholder="Tìm Tên Thú Cưng" />
@@ -9,7 +10,6 @@
              Text="Tìm"
              Clicked="Button_Search_Clicked"
              ></Button>
-
             <Label Text="Tên"
              x:Name="NamePET"
              HorizontalOptions="Center"/>
