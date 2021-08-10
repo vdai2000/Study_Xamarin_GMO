@@ -13,8 +13,8 @@ namespace UI_Xamarin.Service
         {
             items = new List<User>()
             {
-                new User("Dương Văn Đại","Nam","123","Nam","26/03/2000"),
-                new User("Dương Văn Đại","Dai","123","Nam","26/03/2000")
+                new User("Dương Văn Đại","Nam","123","Nam",new DateTime(2000,03,26)),
+                new User("Duong Van Dai","Dai","123","Nam",new DateTime(2000,03,26))
             };
         }
         public bool AddUser(User item)

@@ -1150,3 +1150,13 @@ D:\WORK\Study_Xamarin_GMO\UI_Xamarin\UI_Xamarin\UI_Xamarin.Android\obj\Debug\110
 D:\WORK\Study_Xamarin_GMO\UI_Xamarin\UI_Xamarin\UI_Xamarin.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 D:\WORK\Study_Xamarin_GMO\UI_Xamarin\UI_Xamarin\UI_Xamarin.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 D:\WORK\Study_Xamarin_GMO\UI_Xamarin\UI_Xamarin\UI_Xamarin.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+D:\WORK\Study_Xamarin_GMO\UI_Xamarin\UI_Xamarin\UI_Xamarin.Android\obj\Debug\110\android\assets\Google.Apis.Auth.dll
+D:\WORK\Study_Xamarin_GMO\UI_Xamarin\UI_Xamarin\UI_Xamarin.Android\obj\Debug\110\android\assets\Google.Apis.Auth.pdb
+D:\WORK\Study_Xamarin_GMO\UI_Xamarin\UI_Xamarin\UI_Xamarin.Android\obj\Debug\110\android\assets\Google.Apis.Auth.PlatformServices.dll
+D:\WORK\Study_Xamarin_GMO\UI_Xamarin\UI_Xamarin\UI_Xamarin.Android\obj\Debug\110\android\assets\Google.Apis.Core.dll
+D:\WORK\Study_Xamarin_GMO\UI_Xamarin\UI_Xamarin\UI_Xamarin.Android\obj\Debug\110\android\assets\Google.Apis.Core.pdb
+D:\WORK\Study_Xamarin_GMO\UI_Xamarin\UI_Xamarin\UI_Xamarin.Android\obj\Debug\110\android\assets\Google.Apis.dll
+D:\WORK\Study_Xamarin_GMO\UI_Xamarin\UI_Xamarin\UI_Xamarin.Android\obj\Debug\110\android\assets\Google.Apis.pdb
+D:\WORK\Study_Xamarin_GMO\UI_Xamarin\UI_Xamarin\UI_Xamarin.Android\obj\Debug\110\android\assets\Google.Apis.YouTube.v3.dll
+D:\WORK\Study_Xamarin_GMO\UI_Xamarin\UI_Xamarin\UI_Xamarin.Android\obj\Debug\110\android\assets\Google.Apis.YouTube.v3.pdb
+D:\WORK\Study_Xamarin_GMO\UI_Xamarin\UI_Xamarin\UI_Xamarin.Android\obj\Debug\110\android\assets\Newtonsoft.Json.dll

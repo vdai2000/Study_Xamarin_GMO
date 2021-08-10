@@ -4,6 +4,12 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "UI_Xamarin.Android.dll" comes first in this list. */
 		"UI_Xamarin.Android.dll",
 		"FormsViewGroup.dll",
+		"Google.Apis.Auth.dll",
+		"Google.Apis.Auth.PlatformServices.dll",
+		"Google.Apis.Core.dll",
+		"Google.Apis.dll",
+		"Google.Apis.YouTube.v3.dll",
+		"Newtonsoft.Json.dll",
 		"UI_Xamarin.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",

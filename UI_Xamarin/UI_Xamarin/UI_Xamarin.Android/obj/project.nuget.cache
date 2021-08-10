@@ -1,9 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "7Sib2HdPlzX+B+Dwa20eqG6V0I1CCG+SEpjJ20S+PxULqPYSi4+X8v5GDgUD1nTdN2bZadh6ekVxaGdDZT7Rpg==",
+  "dgSpecHash": "4uuZXoRmV+dM46zUKloh6JxM7apP8Ulk3QDXV8hhQWM5eCjL6wkYJ/LKT5F+cWG4xKviiqY5TjSXgx+Itj6KuQ==",
   "success": true,
   "projectFilePath": "D:\\WORK\\Study_Xamarin_GMO\\UI_Xamarin\\UI_Xamarin\\UI_Xamarin.Android\\UI_Xamarin.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\duong.LAPTOP-50PNH6CP\\.nuget\\packages\\google.apis\\1.54.0\\google.apis.1.54.0.nupkg.sha512",
+    "C:\\Users\\duong.LAPTOP-50PNH6CP\\.nuget\\packages\\google.apis.auth\\1.54.0\\google.apis.auth.1.54.0.nupkg.sha512",
+    "C:\\Users\\duong.LAPTOP-50PNH6CP\\.nuget\\packages\\google.apis.core\\1.54.0\\google.apis.core.1.54.0.nupkg.sha512",
+    "C:\\Users\\duong.LAPTOP-50PNH6CP\\.nuget\\packages\\google.apis.youtube.v3\\1.54.0.2378\\google.apis.youtube.v3.1.54.0.2378.nupkg.sha512",
+    "C:\\Users\\duong.LAPTOP-50PNH6CP\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\duong.LAPTOP-50PNH6CP\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation\\1.1.0.8\\xamarin.androidx.annotation.1.1.0.8.nupkg.sha512",

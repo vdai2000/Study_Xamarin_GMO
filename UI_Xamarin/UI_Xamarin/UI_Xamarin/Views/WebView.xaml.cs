@@ -15,7 +15,7 @@ namespace UI_Xamarin.Views
         public WebView()
         {
             InitializeComponent();
-            WB_Info.Source = new UrlWebViewSource() { Url = "vdai2000.github.io" };
+            WB_Info.Source = new UrlWebViewSource() { Url = "https://reactnative.dev/docs/environment-setup" };
 
         }
     }

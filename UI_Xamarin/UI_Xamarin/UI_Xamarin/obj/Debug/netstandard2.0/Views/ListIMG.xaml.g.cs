@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("UI_Xamarin.Views.Stack_Layout.xaml", "Views/Stack_Layout.xaml", typeof(global::UI_Xamarin.Views.Stack_Layout))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("UI_Xamarin.Views.ListIMG.xaml", "Views/ListIMG.xaml", typeof(global::UI_Xamarin.Views.ListIMG))]
 
 namespace UI_Xamarin.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Stack_Layout.xaml")]
-    public partial class Stack_Layout : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\ListIMG.xaml")]
+    public partial class ListIMG : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Stack_Layout));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ListIMG));
         }
     }
 }

@@ -16,7 +16,7 @@ namespace UI_Xamarin.Views
         public Girdview()
         {         
             InitializeComponent();
-            View = new ListPETViewModels();
+            View = new ListPETViewModels(Navigation);
             BindingContext = View;
         }
     }

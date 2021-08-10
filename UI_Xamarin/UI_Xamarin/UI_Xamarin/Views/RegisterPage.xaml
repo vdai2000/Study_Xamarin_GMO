@@ -1,17 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="UI_Xamarin.Views.RegisterPage">
+             x:Class="UI_Xamarin.Views.RegisterPage"
+             x:Name="main">
     <ContentPage.Content>
         <StackLayout Spacing="10" Padding="40">
             <Label Text="Name" />
-            <Entry Placeholder="Full Name" x:Name="ET_FullName"/>
+            <Entry Placeholder="Full Name" 
+                   x:Name="ET_FullName"
+                   Text="{Binding NameRegister}"/>
             <Label Text="User"/>
-            <Entry Placeholder="User" x:Name="ET_User"/>
+            <Entry Placeholder="User" 
+                   x:Name="ET_User"
+                   Text="{Binding UsernameRegister}"/>
             <Label Text="Password" />
-            <Entry Placeholder="Password" x:Name="ET_Password" IsPassword="True"/>
+            <Entry Placeholder="Password" 
+                   x:Name="ET_Password" 
+                   IsPassword="True"
+                   Text="{Binding PasswordRegister}"/>
             <Label Text="Verify"/>
-            <Entry Placeholder="Verify" x:Name="ET_Verify" IsPassword="True"/>
+            <Entry Placeholder="Verify" 
+                   x:Name="ET_Verify" 
+                   IsPassword="True"/>
             <Label Text="Gender"/>
             <StackLayout Orientation="Horizontal">
                 <RadioButton x:Name="Male" Value="Male" Content="Male"/>
@@ -21,9 +31,9 @@
             <DatePicker x:Name="startDatePicker"
                     Format="dd/MM/yyyy"
                     Margin="30, 0, 0, 30"
-                     />
+                    Date="{Binding BirthdayRegister}"/>
 
-            <Button Text="Register" Clicked ="Button_Register_ClickedAsync" />
+            <Button Text="Register" Command="{Binding Source={x:Reference main}, Path = BindingContext.RegisterCommand}" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

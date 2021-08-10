@@ -5,27 +5,26 @@
     <ContentPage.Content>
         <StackLayout>
             <Label 
-                x:Name="Ten"
-                Text="Welcome to Xamarin.Forms!"
+                Text="{Binding NamePet}"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
 
             <Label 
-                x:Name="Loai"
-                Text="Welcome to Xamarin.Forms!"
+                Text="{Binding Type}"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
 
             <Image 
-                x:Name="Hinh"
+                Source="{Binding ImgPet}"
+                Background="blue"
                HeightRequest="240"
                 WidthRequest="240"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
 
             <Label 
+                Text="{Binding Distription}"
                 x:Name="Mota"
-                Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>

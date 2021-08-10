@@ -10,13 +10,13 @@ namespace UI_Xamarin.Models
         private string user;
         private string pass;
         private string gender;
-        private string date;
+        private DateTime date;
 
         public User()
         {
         }
 
-        public User(string fullName, string user, string pass, string gender, string date)
+        public User(string fullName, string user, string pass, string gender, DateTime date)
         {
             this.FullName = fullName;
             this.Username = user;
@@ -29,6 +29,6 @@ namespace UI_Xamarin.Models
         public string Username { get => user; set => user = value; }
         public string Pass { get => pass; set => pass = value; }
         public string Gender { get => gender; set => gender = value; }
-        public string Date { get => date; set => date = value; }
+        public DateTime Date { get => date; set => date = value; }
     }
 }

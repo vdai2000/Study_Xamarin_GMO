@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UI_Xamarin.Views.ListIMG">
+    <ContentPage.Content>
+        <ScrollView 
+            BackgroundColor="LightBlue"
+            Orientation="Vertical">
+            <ListView ItemsSource="{Binding ListImage}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid x:Name="gridListRoom" Padding="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="8*"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="5*"></ColumnDefinition>
+                                    <ColumnDefinition Width="5*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                    <Label Text="{Binding Type}"></Label>
+                                    <Image 
+                                        HorizontalOptions="Center"
+                                        HeightRequest="50"
+                                        WidthRequest="50"
+                                        Background="Green"
+                                        Source="{Binding ImageType}"
+                                    ></Image>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

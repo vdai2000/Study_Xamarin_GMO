@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "TbpACepkPZZk+97nqEtOv0DYMZ/ecTbZXTKJM/tCNnO93V+/M8qEIyykF9reMzwwpoE9b1hbHtRK/XKJK3On9A==",
+  "dgSpecHash": "jKB+teM4p1RMbnnBDw1pqJLU4ZUIttsZQiDMGp9+yKFhOE7vneJAc5skk5chO9sOM/iEvGOZavtrQCYc8TEmnA==",
   "success": true,
   "projectFilePath": "D:\\WORK\\Study_Xamarin_GMO\\UI_Xamarin\\UI_Xamarin\\UI_Xamarin\\UI_Xamarin.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\duong.LAPTOP-50PNH6CP\\.nuget\\packages\\google.apis\\1.54.0\\google.apis.1.54.0.nupkg.sha512",
+    "C:\\Users\\duong.LAPTOP-50PNH6CP\\.nuget\\packages\\google.apis.auth\\1.54.0\\google.apis.auth.1.54.0.nupkg.sha512",
+    "C:\\Users\\duong.LAPTOP-50PNH6CP\\.nuget\\packages\\google.apis.core\\1.54.0\\google.apis.core.1.54.0.nupkg.sha512",
+    "C:\\Users\\duong.LAPTOP-50PNH6CP\\.nuget\\packages\\google.apis.youtube.v3\\1.54.0.2378\\google.apis.youtube.v3.1.54.0.2378.nupkg.sha512",
     "C:\\Users\\duong.LAPTOP-50PNH6CP\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\duong.LAPTOP-50PNH6CP\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\duong.LAPTOP-50PNH6CP\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\duong.LAPTOP-50PNH6CP\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"

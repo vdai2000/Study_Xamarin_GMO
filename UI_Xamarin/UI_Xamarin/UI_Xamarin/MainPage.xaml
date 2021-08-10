@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="UI_Xamarin.MainPage">
+             x:Class="UI_Xamarin.MainPage"
+             x:Name="main">
 
     <StackLayout>
         <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
@@ -14,24 +15,26 @@
              x:Name="Lb_User"  
                 >USER NAME</Label>
             <Entry
-             x:Name="ID" Text="Dai"
-             Placeholder="Nhập User name"></Entry>
+                Text="{Binding UserName}"
+                x:Name="ID"
+                Placeholder="Nhập User name"></Entry>
             <Label
              x:Name="Lb_Pass">PASSWORD</Label>
             <Entry
-             x:Name="Pass"
-              IsPassword="true"
-                Text="123"
-             Placeholder="Nhập Password">
+                Text="{Binding Password}"
+                x:Name="Pass"
+                IsPassword="true"
+                Placeholder="Nhập Password">
             </Entry>
-            <Button Text="Click me to Login" Clicked="Button_Clicked_1"
-            TextColor="Blue"
-            BackgroundColor="LightBlue"
-            BorderColor="Blue"
-            BorderWidth="5"
-            CornerRadius="5"
-            WidthRequest="150"
-            HeightRequest="75" />
+            <Button Text="Click me to Login" 
+                Command="{Binding Source={x:Reference main}, Path = BindingContext.LoginCommand}"
+                TextColor="Blue"
+                BackgroundColor="LightBlue"
+                BorderColor="Blue"
+                BorderWidth="5"
+                CornerRadius="5"
+                WidthRequest="150"
+                HeightRequest="75" />
 
             <Label Text="Register" />
             <Button Text="Click me to Register" Clicked="Button_Clicked"

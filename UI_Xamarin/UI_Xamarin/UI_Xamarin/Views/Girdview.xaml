@@ -1,32 +1,53 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="UI_Xamarin.Views.Girdview">
+             x:Class="UI_Xamarin.Views.Girdview"
+             x:Name="main">
     <ContentPage.Content>
-        <StackLayout>
-            <ListView ItemsSource="{Binding List}">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <Grid x:Name="gridListRoom">
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="*"></RowDefinition>
-                                </Grid.RowDefinitions>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="1.5*"></ColumnDefinition>
-                                    <ColumnDefinition Width="1.5*"></ColumnDefinition>
-                                    <ColumnDefinition Width="2.0*"></ColumnDefinition>
-                                    <ColumnDefinition Width="2.0*"></ColumnDefinition>
-                                </Grid.ColumnDefinitions>
-                                <Label Grid.Row="0" HorizontalOptions="Center"  Grid.Column="0" Text="{Binding NamePet}"></Label>
-                                <Label Grid.Row="0" HorizontalOptions="Center" Grid.Column="1" Text="{Binding Type}"></Label>
-                                <Image Grid.Row="0" HorizontalOptions="Center" Grid.Column="2" Source="{Binding ImgPet}"></Image>
-                                <Button  Grid.Row="0" HorizontalOptions="Center" Grid.Column="3" Text="Detail"></Button>
-                            </Grid>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
+        <StackLayout Background="Gray">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <SearchBar  
+                    Grid.Row="0"
+                    x:Name="searchBar"
+                    HeightRequest="50"
+                   SearchCommand="{Binding SearchCommand}"
+                   SearchCommandParameter="{Binding Text, Source={x:Reference searchBar}}"/>
+                <ScrollView 
+                    Grid.Row="1" Grid.ColumnSpan="2"
+                    Orientation="Vertical"
+                    x:Name="myscroll">
+                    <ListView ItemsSource="{Binding List}">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <Grid x:Name="gridListRoom">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="8*"></RowDefinition>
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="2.0*"></ColumnDefinition>
+                                            <ColumnDefinition Width="2.0*"></ColumnDefinition>
+                                            <ColumnDefinition Width="4.0*"></ColumnDefinition>
+                                            <ColumnDefinition Width="2.0*"></ColumnDefinition>
+                                        </Grid.ColumnDefinitions>
+                                        <Label Grid.Row="0" HorizontalOptions="Center"  Grid.Column="0" Text="{Binding NamePet}"></Label>
+                                        <Label Grid.Row="0" HorizontalOptions="Center" Grid.Column="1" Text="{Binding Type}"></Label>
+                                        <Image Grid.Row="0" HorizontalOptions="Center" Grid.Column="2" Source="{Binding ImgPet}"></Image>
+                                        <Button  Grid.Row="0" HorizontalOptions="Center" Grid.Column="3" Text="Detail" Command="{Binding Source={x:Reference main}, Path = BindingContext.DetailCommand}" CommandParameter="{Binding .}"></Button>
+                                    </Grid>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </ScrollView>
+            </Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

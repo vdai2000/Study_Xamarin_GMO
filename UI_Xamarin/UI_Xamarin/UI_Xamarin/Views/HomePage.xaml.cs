@@ -14,11 +14,12 @@ namespace UI_Xamarin.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class HomePage : ContentPage
     {
-        PETViewModels pvm = new PETViewModels();
+        PETViewModels pvm;
         PET pet;
         public HomePage()
         {
             InitializeComponent();
+            pvm = new PETViewModels(Navigation);
             string myValue = Preferences.Get("username", "");
             Hello.Title = "Xin Chào " + myValue;
         }
@@ -35,14 +36,14 @@ namespace UI_Xamarin.Views
 
         private void Button_Detail_Clicked(object sender, EventArgs e)
         {
-            if(pet != null)
+            /*if(pet != null)
             {
                 Navigation.PushModalAsync(new DetailPET(pet.NamePet.ToString()));
             }
             else
             {
                 DisplayAlert("Alert", "You have been alerted", "OK");
-            }
+            }*/
         }
     }
 }

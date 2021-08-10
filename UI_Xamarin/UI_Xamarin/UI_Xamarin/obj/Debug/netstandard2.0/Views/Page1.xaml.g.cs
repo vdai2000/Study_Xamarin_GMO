@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("UI_Xamarin.Views.ScrollView.xaml", "Views/ScrollView.xaml", typeof(global::UI_Xamarin.Views.ScrollView))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("UI_Xamarin.Views.Page1.xaml", "Views/Page1.xaml", typeof(global::UI_Xamarin.Views.Page1))]
 
 namespace UI_Xamarin.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\ScrollView.xaml")]
-    public partial class ScrollView : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Page1.xaml")]
+    public partial class Page1 : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ScrollView));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Page1));
         }
     }
 }

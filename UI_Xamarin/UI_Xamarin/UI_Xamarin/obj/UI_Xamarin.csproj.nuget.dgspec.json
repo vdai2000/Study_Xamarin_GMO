@@ -44,6 +44,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Google.Apis.YouTube.v3": {
+              "target": "Package",
+              "version": "[1.54.0.2378, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
