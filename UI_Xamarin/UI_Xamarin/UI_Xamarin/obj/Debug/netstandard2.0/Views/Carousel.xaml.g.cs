@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("UI_Xamarin.Views.Page1.xaml", "Views/Page1.xaml", typeof(global::UI_Xamarin.Views.Page1))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("UI_Xamarin.Views.Carousel.xaml", "Views/Carousel.xaml", typeof(global::UI_Xamarin.Views.Page1))]
 
 namespace UI_Xamarin.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Page1.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Carousel.xaml")]
     public partial class Page1 : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

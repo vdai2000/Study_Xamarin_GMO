@@ -33,11 +33,11 @@ namespace UI_Xamarin.Views
             {
                 MenuItems = new ObservableCollection<MyFlayoutFlyoutMenuItem>(new[]
                 {
-                    new MyFlayoutFlyoutMenuItem { Id = 0, Title = "Page 1" ,TargetType = typeof(Girdview)},
-                    new MyFlayoutFlyoutMenuItem { Id = 1, Title = "Page 2" ,TargetType = typeof(WebView)},
-                    new MyFlayoutFlyoutMenuItem { Id = 2, Title = "Page 3" ,TargetType = typeof(ListIMG)},
-                    new MyFlayoutFlyoutMenuItem { Id = 3, Title = "Page 4" ,TargetType = typeof(AbsoluteLayout)},
-                    new MyFlayoutFlyoutMenuItem { Id = 4, Title = "Page 5" ,TargetType = typeof(RelativeLayout)},
+                    new MyFlayoutFlyoutMenuItem { Id = 0, Title = "Page List PET" ,TargetType = typeof(Girdview),URL="https://noithattinnghia.com/wp-content/uploads/2019/03/cropped-icon-home-cam.png"},
+                    new MyFlayoutFlyoutMenuItem { Id = 1, Title = "Page WebView" ,TargetType = typeof(WebView),URL="https://noithattinnghia.com/wp-content/uploads/2019/03/cropped-icon-home-cam.png"},
+                    new MyFlayoutFlyoutMenuItem { Id = 2, Title = "Page List IMG" ,TargetType = typeof(ListIMG),URL="https://noithattinnghia.com/wp-content/uploads/2019/03/cropped-icon-home-cam.png"},
+                    new MyFlayoutFlyoutMenuItem { Id = 3, Title = "Page Carousel" ,TargetType = typeof(CarouselPage),URL="https://noithattinnghia.com/wp-content/uploads/2019/03/cropped-icon-home-cam.png"},
+                    new MyFlayoutFlyoutMenuItem { Id = 4, Title = "Page 5" ,TargetType = typeof(RelativeLayout),URL="https://noithattinnghia.com/wp-content/uploads/2019/03/cropped-icon-home-cam.png"},
                 });
             }
 

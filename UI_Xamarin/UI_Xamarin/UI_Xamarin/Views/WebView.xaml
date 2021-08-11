@@ -4,7 +4,7 @@
              x:Class="UI_Xamarin.Views.WebView">
     <ContentPage.Content>
         <StackLayout>
-            <WebView VerticalOptions="FillAndExpand" HeightRequest="500" 
+            <WebView VerticalOptions="FillAndExpand" WidthRequest="1000" HeightRequest="1000"
                   x:Name="WB_Info"/>
         </StackLayout>
     </ContentPage.Content>

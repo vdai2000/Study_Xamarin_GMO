@@ -52,9 +52,9 @@ namespace UI_Xamarin.ViewModels
         }
         public async Task LoadDetailPage(object obj)
         {
-            var a = new DetailPET();
-            a.BindingContext = obj;
-            await Navigation.PushModalAsync(a);
+            var detailPET = new DetailPET();
+            detailPET.BindingContext = obj;
+            await Navigation.PushModalAsync(detailPET);
         }
         
         public ICommand DetailCommand { get => detailCommand; set => detailCommand = value; }

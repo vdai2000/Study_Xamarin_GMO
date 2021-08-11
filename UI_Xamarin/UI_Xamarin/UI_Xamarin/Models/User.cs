@@ -6,11 +6,11 @@ namespace UI_Xamarin.Models
 {
     public class User
     {
-        private string fullName;
-        private string user;
-        private string pass;
-        private string gender;
-        private DateTime date;
+        private string _fullName;
+        private string _user;
+        private string _pass;
+        private string _gender;
+        private DateTime _date;
 
         public User()
         {
@@ -25,10 +25,10 @@ namespace UI_Xamarin.Models
             this.Date = date;
         }
 
-        public string FullName { get => fullName; set => fullName = value; }
-        public string Username { get => user; set => user = value; }
-        public string Pass { get => pass; set => pass = value; }
-        public string Gender { get => gender; set => gender = value; }
-        public DateTime Date { get => date; set => date = value; }
+        public string FullName { get => _fullName; set => _fullName = value; }
+        public string Username { get => _user; set => _user = value; }
+        public string Pass { get => _pass; set => _pass = value; }
+        public string Gender { get => _gender; set => _gender = value; }
+        public DateTime Date { get => _date; set => _date = value; }
     }
 }

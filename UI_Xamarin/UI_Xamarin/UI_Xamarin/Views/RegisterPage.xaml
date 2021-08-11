@@ -6,7 +6,8 @@
     <ContentPage.Content>
         <StackLayout Spacing="10" Padding="40">
             <Label Text="Name" />
-            <Entry Placeholder="Full Name" 
+            <Entry
+                Placeholder="Full Name" 
                    x:Name="ET_FullName"
                    Text="{Binding NameRegister}"/>
             <Label Text="User"/>

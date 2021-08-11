@@ -36,4 +36,4 @@ D:\WORK\Study_Xamarin_GMO\UI_Xamarin\UI_Xamarin\UI_Xamarin\obj\Debug\netstandard
 D:\WORK\Study_Xamarin_GMO\UI_Xamarin\UI_Xamarin\UI_Xamarin\obj\Debug\netstandard2.0\Views\RegisterPage.xaml.g.cs
 D:\WORK\Study_Xamarin_GMO\UI_Xamarin\UI_Xamarin\UI_Xamarin\obj\Debug\netstandard2.0\Views\WebView.xaml.g.cs
 D:\WORK\Study_Xamarin_GMO\UI_Xamarin\UI_Xamarin\UI_Xamarin\obj\Debug\netstandard2.0\Views\ListIMG.xaml.g.cs
-D:\WORK\Study_Xamarin_GMO\UI_Xamarin\UI_Xamarin\UI_Xamarin\obj\Debug\netstandard2.0\Views\Page1.xaml.g.cs
+D:\WORK\Study_Xamarin_GMO\UI_Xamarin\UI_Xamarin\UI_Xamarin\obj\Debug\netstandard2.0\Views\CarouselPage.xaml.g.cs

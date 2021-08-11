@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="UI_Xamarin.Views.Page1">
+             x:Class="UI_Xamarin.Views.CarouselPage">
     <ContentPage.Content>
         <StackLayout>
-            <CarouselView ItemsSource="{Binding ListImage}">
+            <CarouselView ItemsSource="{Binding ListImage}" x:Name="mainCarousel">
                 <CarouselView.ItemTemplate>
                     <DataTemplate>
                         <StackLayout>
-                            <Label Text="{Binding Type}"/>
+                            <Label HorizontalOptions="Center" Text="{Binding Type}"/>
                             <Image Source="{Binding ImageType}"/>
                         </StackLayout>
                     </DataTemplate>

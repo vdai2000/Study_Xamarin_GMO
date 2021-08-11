@@ -16,5 +16,7 @@ namespace UI_Xamarin.Views
         public string Title { get; set; }
 
         public Type TargetType { get; set; }
+
+        public string URL{ get; set;}
     }
 }
