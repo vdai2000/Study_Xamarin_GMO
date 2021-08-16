@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tuan2.Views.Page2"
+             x:Name="main">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="{Binding Name}" />
+            <Label Text="{Binding Mota}" />
+            <Button Text="Go To Home"
+                    x:Name="Btn_GoHome"
+                    Clicked="Btn_GoHome_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

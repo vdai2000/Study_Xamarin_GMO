@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tuan2.Views.Themes.UsingLightMode"
+             BackgroundColor="{DynamicResource SecondaryColor}"
+             >
+    <ContentPage.Resources>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="200" />
+                        <RowDefinition Height="120" />
+                        <RowDefinition Height="70" />
+                    </Grid.RowDefinitions>
+                    <Grid BackgroundColor="{DynamicResource PrimaryColor}">
+                        <Label Text="Face-Palm Monkey"
+                       VerticalOptions="Center"
+                       Margin="15"
+                       Style="{DynamicResource SmallLabelStyle}" />
+                    </Grid>
+                    <StackLayout Grid.Row="1"
+                         Margin="10">
+                        <Label Text="This monkey reacts appropriately to ridiculous assertions and actions."
+                       Style="{DynamicResource SmallLabeSmallLabelStylelStyle}" />
+                        <Label Text="  &#x2022; Cynical but not unfriendly."
+                       Style="{DynamicResource SmallLabelStyle}" />
+                        <Label Text="  &#x2022; Seven varieties of grimaces."
+                       Style="{StaticResource SmallLabelStyle}" />
+                        <Label Text="  &#x2022; Doesn't laugh at your jokes."
+                       Style="{DynamicResource SmallLabelStyle}" />
+                    </StackLayout>
+                </Grid>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

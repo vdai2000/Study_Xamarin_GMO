@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Tuan2.Views.Trigger"
+             x:Class="Tuan2.Views.Trigger.Property">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label  
+                VerticalOptions="CenterAndExpand" 
+                Text="Property Trigger !">
+                    <Label.Triggers>
+                        <Trigger TargetType="Label" Property="IsVisible" Value="True">
+                            <Setter Property="BackgroundColor" Value="Aqua"/>
+                            <Setter Property="TextColor" Value="Red"/>
+                        </Trigger>
+                    </Label.Triggers>
+                </Label>
+                <Label>Data Trigger></Label>
+                <Entry Text=" " x:Name="entry_Trigger"/>
+                <Label Text="Phai dung 10 ky ty">
+                    <Label.Triggers>
+                        <DataTrigger
+                    TargetType="Label"
+                    Binding="{Binding Source={x:Reference entry_Trigger},Path=Text.Length}"
+                    Value="10">
+                            <Setter Property="IsVisible" Value="False"/>
+                        </DataTrigger>
+                        <DataTrigger
+                    TargetType="Label"
+                     Binding="{Binding Source={x:Reference entry_Trigger},Path=Text.Length}"
+                    Value="0">
+                            <Setter Property="IsVisible" Value="True"/>
+                        </DataTrigger>
+                    </Label.Triggers>
+                </Label>
+                <Button Text="Data" IsEnabled="False">
+                    <Button.Triggers>
+                        <DataTrigger
+                    TargetType="Button"
+                    Binding="{Binding Source={x:Reference entry_Trigger},Path=Text.Length}"
+                    Value="10">
+                            <Setter Property="IsEnabled" Value="True"/>
+                        </DataTrigger>
+                    </Button.Triggers>
+                </Button>
+                <Label>Event Trigger></Label>
+                <Entry>
+                    <Entry.Triggers>
+                        <EventTrigger Event="TextChanged">
+                            <local:NumericValidationTriggerAction/>
+                        </EventTrigger>
+                    </Entry.Triggers>
+                </Entry>
+                <Label>Multi Trigger</Label>
+                <Entry Text="" x:Name="user" Placeholder="User"/>
+                <Entry Text="" x:Name="pass" Placeholder="Pa ss"/>
+                <Button Text="Login">
+                    <Button.Triggers>
+                        <MultiTrigger TargetType="Button">
+                            <MultiTrigger.Conditions>
+                                <BindingCondition Binding="{Binding Source={x:Reference user},
+                                   Path=Text.Length}"
+                               Value="10" />
+                                <BindingCondition Binding="{Binding Source={x:Reference pass},
+                                   Path=Text.Length}"
+                               Value="10" />
+                            </MultiTrigger.Conditions>
+                            <Setter Property="BackgroundColor" Value="Aqua"/>
+                            <Setter Property="IsEnabled" Value="False" />
+                            <!-- multiple Setter elements are allowed -->
+                        </MultiTrigger>
+                    </Button.Triggers>
+                </Button>
+                <Label>EnterActions and ExitActions</Label>
+                <Entry Placeholder="enter job title">
+                    <Entry.Triggers>
+                        <Trigger TargetType="Entry"
+                 Property="Entry.IsFocused" Value="True">
+                            <Trigger.EnterActions>
+                                <local:FadeTriggerAction StartsFrom="0" />
+                            </Trigger.EnterActions>
+
+                            <Trigger.ExitActions>
+                                <local:FadeTriggerAction StartsFrom="1" />
+                            </Trigger.ExitActions>
+                            <!-- You can use both Enter/Exit and Setter together if required -->
+                        </Trigger>
+                    </Entry.Triggers>
+                </Entry>
+            </StackLayout>
+        </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>

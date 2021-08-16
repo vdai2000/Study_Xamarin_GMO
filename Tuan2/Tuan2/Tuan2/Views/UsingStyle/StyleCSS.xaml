@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tuan2.Views.UsingStyle.StyleCSS">
+    <ContentPage.Resources>
+        <StyleSheet Source="/Views/UsingStyle/style.css"/>
+        <StyleSheet>
+            <![CDATA[
+        button {
+            background-color: blue;
+        }
+        ]]>
+        </StyleSheet>
+
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout >
+            <Label Text="This label using css"/>
+            <Label Text="This label using css" StyleClass="detailPageTitle" />
+            <Label Text="This label using css" StyleClass="detailPageSubtitle"/>
+            <Image Source="https://lh6.googleusercontent.com/X7JYEBXkxFMLWlXgsipqGbOYN6j9Lh_83FdKL-WPAtVKZsNnwrEE-VJVR83IXO73jgq4NrVuwPER2JVgkuyIpFMDMLzN3kbY1uHnD2_5enIx52yB-0IWf_VIfgFcpQBb4Yp3-an0"></Image>
+            <Button Text="this is button ussing css that declare in xaml"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

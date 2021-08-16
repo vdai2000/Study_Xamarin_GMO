@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tuan2.Views.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Go To Page2"
+                    x:Name="Navi_Page2"
+                    Clicked="Navi_Page2_Clicked"></Button>
+
+            <Button Text="Back To MainPage"
+                    x:Name="Navi_Main_Page"
+                    Clicked="Navi_Main_Page_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
