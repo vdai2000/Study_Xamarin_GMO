@@ -540,11 +540,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WORK\\Tuan2\\Tuan2\\Tuan2\\Tuan2.csproj",
+      "projectUniqueName": "D:\\WORK\\Study_Xamarin_GMO\\Tuan2\\Tuan2\\Tuan2\\Tuan2.csproj",
       "projectName": "Tuan2",
-      "projectPath": "D:\\WORK\\Tuan2\\Tuan2\\Tuan2\\Tuan2.csproj",
+      "projectPath": "D:\\WORK\\Study_Xamarin_GMO\\Tuan2\\Tuan2\\Tuan2\\Tuan2.csproj",
       "packagesPath": "C:\\Users\\duong.LAPTOP-50PNH6CP\\.nuget\\packages\\",
-      "outputPath": "D:\\WORK\\Tuan2\\Tuan2\\Tuan2\\obj\\",
+      "outputPath": "D:\\WORK\\Study_Xamarin_GMO\\Tuan2\\Tuan2\\Tuan2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J5t33X0lioDogtqVy5J6MVUC+aZzxi5hE2DQmkQ3zHscl/PNWDISO1f+SwLwXIjYqctqR+QzxeIYN3WblMChcg==",
+  "dgSpecHash": "7fweqfYUfXuDozmKUrwQ69bEYmsWe+WrWAyGivC+YFYUlbiS1hFz51IB/8RexL4BaEddBt1tzYl2rV107h4PEg==",
   "success": true,
-  "projectFilePath": "D:\\WORK\\Tuan2\\Tuan2\\Tuan2\\Tuan2.csproj",
+  "projectFilePath": "D:\\WORK\\Study_Xamarin_GMO\\Tuan2\\Tuan2\\Tuan2\\Tuan2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\duong.LAPTOP-50PNH6CP\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\duong.LAPTOP-50PNH6CP\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

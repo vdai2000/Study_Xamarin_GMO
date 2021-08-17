@@ -2148,11 +2148,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WORK\\Tuan2\\Tuan2\\Tuan2.Android\\Tuan2.Android.csproj",
+      "projectUniqueName": "D:\\WORK\\Study_Xamarin_GMO\\Tuan2\\Tuan2\\Tuan2.Android\\Tuan2.Android.csproj",
       "projectName": "Tuan2.Android",
-      "projectPath": "D:\\WORK\\Tuan2\\Tuan2\\Tuan2.Android\\Tuan2.Android.csproj",
+      "projectPath": "D:\\WORK\\Study_Xamarin_GMO\\Tuan2\\Tuan2\\Tuan2.Android\\Tuan2.Android.csproj",
       "packagesPath": "C:\\Users\\duong.LAPTOP-50PNH6CP\\.nuget\\packages\\",
-      "outputPath": "D:\\WORK\\Tuan2\\Tuan2\\Tuan2.Android\\obj\\",
+      "outputPath": "D:\\WORK\\Study_Xamarin_GMO\\Tuan2\\Tuan2\\Tuan2.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2173,8 +2173,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "D:\\WORK\\Tuan2\\Tuan2\\Tuan2\\Tuan2.csproj": {
-              "projectPath": "D:\\WORK\\Tuan2\\Tuan2\\Tuan2\\Tuan2.csproj"
+            "D:\\WORK\\Study_Xamarin_GMO\\Tuan2\\Tuan2\\Tuan2\\Tuan2.csproj": {
+              "projectPath": "D:\\WORK\\Study_Xamarin_GMO\\Tuan2\\Tuan2\\Tuan2\\Tuan2.csproj"
             }
           }
         }

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Tuan2.Views.Behaviors" xmlns:local1="clr-namespace:Tuan2.Views"
+             x:Class="Tuan2.Views.Behaviors.UsingBeharviors">
+    <ContentPage.Content>
+        <StackLayout
+            Orientation="Vertical">
+            <Entry Placeholder="Enter a System.Double"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                local1:NumericValidationBehavior.AttachBehavior="true" />
+
+            <Entry Placeholder="Enter a System.Double"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                local1:NumericValidationBehavior.AttachBehavior="False" />
+
+            <Label>Using Behaviors Xamarin</Label>
+            <StackLayout
+            Orientation="Vertical">
+                <Entry
+                Placeholder="Enter a System.Double">
+                    <Entry.Behaviors>
+                        <local:EntryNumericValidationBehavior />
+                    </Entry.Behaviors>
+                </Entry>
+            </StackLayout>
+            <Label>Using Behaviors Xamarin Command</Label>
+            
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

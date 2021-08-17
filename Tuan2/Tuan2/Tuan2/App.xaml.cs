@@ -4,6 +4,7 @@ using Xamarin.Forms.Xaml;
 using Tuan2.Views;
 using Tuan2.Views.FloytLayout;
 using Tuan2.Views.Trigger;
+using Tuan2.Views.Behaviors;
 using Tuan2.Views.Themes;
 
 namespace Tuan2
@@ -24,7 +25,7 @@ namespace Tuan2
             /*MainPage = new UsingLightMode();*/
             /*MainPage = new FlyoutPageDemo();*/
             /*MainPage = new NavigationPage(new MainPage());*/
-            MainPage = new Property();
+            MainPage = new UsingEventCommand();
 
         }
 

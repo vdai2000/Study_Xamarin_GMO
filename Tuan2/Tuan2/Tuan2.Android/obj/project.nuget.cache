@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bL1vRitHABONxaZIuFhKYAJjOPiQollxRLRNgUxvfRSXfKOK8F0gF74yziYoZO4E2OTJ2eh1p7TgT07okWajfg==",
+  "dgSpecHash": "7JfV//rh2ipPeFqkWJKLBON5FPl8wEYEKuOVGjoM1cmYMpUih2gHpVHOpDHRFYKa37PXAuJHjTWLSPJUOW5UGA==",
   "success": true,
-  "projectFilePath": "D:\\WORK\\Tuan2\\Tuan2\\Tuan2.Android\\Tuan2.Android.csproj",
+  "projectFilePath": "D:\\WORK\\Study_Xamarin_GMO\\Tuan2\\Tuan2\\Tuan2.Android\\Tuan2.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\duong.LAPTOP-50PNH6CP\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",

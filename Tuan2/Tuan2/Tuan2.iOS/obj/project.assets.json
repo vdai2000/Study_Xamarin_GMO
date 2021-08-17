@@ -997,11 +997,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WORK\\Tuan2\\Tuan2\\Tuan2.iOS\\Tuan2.iOS.csproj",
+      "projectUniqueName": "D:\\WORK\\Study_Xamarin_GMO\\Tuan2\\Tuan2\\Tuan2.iOS\\Tuan2.iOS.csproj",
       "projectName": "Tuan2.iOS",
-      "projectPath": "D:\\WORK\\Tuan2\\Tuan2\\Tuan2.iOS\\Tuan2.iOS.csproj",
+      "projectPath": "D:\\WORK\\Study_Xamarin_GMO\\Tuan2\\Tuan2\\Tuan2.iOS\\Tuan2.iOS.csproj",
       "packagesPath": "C:\\Users\\duong.LAPTOP-50PNH6CP\\.nuget\\packages\\",
-      "outputPath": "D:\\WORK\\Tuan2\\Tuan2\\Tuan2.iOS\\obj\\",
+      "outputPath": "D:\\WORK\\Study_Xamarin_GMO\\Tuan2\\Tuan2\\Tuan2.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1022,8 +1022,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\WORK\\Tuan2\\Tuan2\\Tuan2\\Tuan2.csproj": {
-              "projectPath": "D:\\WORK\\Tuan2\\Tuan2\\Tuan2\\Tuan2.csproj"
+            "D:\\WORK\\Study_Xamarin_GMO\\Tuan2\\Tuan2\\Tuan2\\Tuan2.csproj": {
+              "projectPath": "D:\\WORK\\Study_Xamarin_GMO\\Tuan2\\Tuan2\\Tuan2\\Tuan2.csproj"
             }
           }
         }

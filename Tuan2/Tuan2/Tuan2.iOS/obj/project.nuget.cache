@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2oZGln7hGexdpAJv14Cz48yczRaK+CxQOchJ5+79y2/R8LxvRdsVbM1yAXuqAIOcRMwjiUl+J4xx80r/Reg2kQ==",
+  "dgSpecHash": "ByUZLaM4KPWZTBXQgQVVekugZaduEke2jUIHrNfp/uz/ZLCGA5MlDVFJeKPKAuXLYe4BvUsf8LtSRRIqpqDDkA==",
   "success": true,
-  "projectFilePath": "D:\\WORK\\Tuan2\\Tuan2\\Tuan2.iOS\\Tuan2.iOS.csproj",
+  "projectFilePath": "D:\\WORK\\Study_Xamarin_GMO\\Tuan2\\Tuan2\\Tuan2.iOS\\Tuan2.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\duong.LAPTOP-50PNH6CP\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
