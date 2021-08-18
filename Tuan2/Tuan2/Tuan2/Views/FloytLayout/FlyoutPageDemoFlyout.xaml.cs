@@ -7,6 +7,9 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using Tuan2.Views.UsingStyle;
+using Tuan2.Views.Themes;
+using Tuan2.Views.Trigger;
+using Tuan2.Views.Behaviors;
 using Tuan2.Views.TabbedPageUsing;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -43,6 +46,11 @@ namespace Tuan2.Views.FloytLayout
                     new FlyoutPageDemoFlyoutMenuItem { Id = 5, Title = "Global Style",TargetType=typeof(Global) },
                     new FlyoutPageDemoFlyoutMenuItem { Id = 6,Title = "Class style",TargetType=typeof(Class) },
                     new FlyoutPageDemoFlyoutMenuItem { Id = 7,Title = "Style CSS style",TargetType=typeof(StyleCSS) },
+                    new FlyoutPageDemoFlyoutMenuItem { Id = 8, Title = "Dynamic style ",TargetType=typeof(Dynamic) },
+                    new FlyoutPageDemoFlyoutMenuItem { Id = 4, Title = "Theme Style",TargetType=typeof(UsingLightMode) },
+                    new FlyoutPageDemoFlyoutMenuItem { Id = 5, Title = "Trigger",TargetType=typeof(Property) },
+                    new FlyoutPageDemoFlyoutMenuItem { Id = 6,Title = "Behaviors",TargetType=typeof(UsingBeharviors) },
+                    new FlyoutPageDemoFlyoutMenuItem { Id = 7,Title = "Behavior EventCommand",TargetType=typeof(UsingEventCommand) },
                 });
             }
 

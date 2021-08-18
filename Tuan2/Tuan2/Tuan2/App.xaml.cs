@@ -23,9 +23,9 @@ namespace Tuan2
             };
             Resources.Add("Btn_style", Btn_style);
             /*MainPage = new UsingLightMode();*/
-            /*MainPage = new FlyoutPageDemo();*/
+            MainPage = new FlyoutPageDemo();
             /*MainPage = new NavigationPage(new MainPage());*/
-            MainPage = new UsingEventCommand();
+            /*MainPage = new UsingEventCommand();*/
 
         }
 

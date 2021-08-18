@@ -60,3 +60,4 @@ D:\WORK\Study_Xamarin_GMO\Tuan2\Tuan2\Tuan2\obj\Debug\netstandard2.0\Tuan2.dll
 D:\WORK\Study_Xamarin_GMO\Tuan2\Tuan2\Tuan2\obj\Debug\netstandard2.0\ref\Tuan2.dll
 D:\WORK\Study_Xamarin_GMO\Tuan2\Tuan2\Tuan2\obj\Debug\netstandard2.0\Tuan2.pdb
 D:\WORK\Study_Xamarin_GMO\Tuan2\Tuan2\Tuan2\obj\Debug\netstandard2.0\Views\Behaviors\UsingEventCommand.xaml.g.cs
+D:\WORK\Study_Xamarin_GMO\Tuan2\Tuan2\Tuan2\obj\Debug\netstandard2.0\Views\UsingStyle\Dynamic.xaml.g.cs
